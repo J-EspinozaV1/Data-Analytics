@@ -1,5 +1,0 @@
-select *
-from na.test
-where 1=1
-order by na.test1
-limit 10
