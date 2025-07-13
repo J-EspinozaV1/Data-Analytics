@@ -1,1 +1,203 @@
+:root {
+  --dashboard_title_font_size: 40px;
+  --background_color: rgb(0, 0, 0);
+  --text_color: rgb(255, 255, 255);
+  --header_color: rgb(255, 255, 255);
+  --chart_title_font_size: 20px;
+  --accent_color: rgb(255, 255, 255); /* white accent */
+}
+
+/*#app-menu {
+  display: none;
+}*/
+
+.jss18 > div > div {
+  max-height: none !important;
+  background-color: var(--background_color);
+  color: var(--text_color);
+}
+
+.MuiInputBase-input {
+  color: var(--text_color) !important;
+}
+
+.jss21 {
+  color: var(--text_color) !important;
+  fill: var(--text_color) !important;
+}
+
+.dashboard {
+  position: relative;
+  background-image: url('https://www.tesla.com/sites/default/files/images/gigafactory/europe/GigaBerlin-Desktop-V4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text_color);
+  /* fallback background color */
+  background-color: var(--background_color);
+}
+
+/* Dark overlay on the background image */
+.dashboard::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.dashboard-header {
+  z-index: 10 !important;
+  position: relative;
+}
+
+#app-menu {
+  display: block !important;
+  z-index: 20 !important;
+  position: relative;
+}
+
+.fa {
+  color: var(--accent_color) !important;
+}
+
+.project-list-chip-text a {
+  color: var(--text_color) !important;
+}
+
+.project-list-chip {
+  background-color: var(--background_color) !important;
+}
+
+.dashboard-header {
+  background-color: var(--background_color) !important;
+  color: var(--header_color);
+  width: 100% !important;
+}
+
+.dashboard-component-header .editable-title {
+  font-size: var(--dashboard_title_font_size);
+  font-family: "Gotham SSm", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--header_color) !important;
+  background-color: var(--background_color) !important;
+}
+
+.dashboard-component-header {
+  font-family: "Gotham SSm", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--header_color);
+  background-color: var(--background_color);
+}
+
+.dashboard-header .dashboard-component-header {
+  background-color: var(--background_color);
+  color: var(--header_color);
+}
+
+/* small line underneath the title of selected tab */
+.dashboard-component-tabs .nav-tabs li.active > a:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(90deg, var(--background_color), var(--accent_color), var(--background_color)) !important;
+}
+
+.react-grid-item {
+  background-color: var(--background_color) !important;
+  color: var(--text_color) !important;
+  border-color: var(--background_color) !important;
+}
+
+.dashboard-component {
+  background-color: var(--background_color) !important;
+  color: var(--text_color) !important;
+}
+
+.editable-title {
+  color: var(--header_color) !important;
+  font-size: var(--chart_title_font_size);
+}
+
+.nav > li,
+.nav > li > a {
+  position: relative;
+  display: inline;
+  padding: 5px;
+  font-size: var(--chart_title_font_size) !important;
+}
+
+.MuiToolbar-root {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: var(--background_color) !important;
+  color: var(--text_color) !important;
+}
+
+.MuiTableHead-root {
+  background-color: var(--background_color) !important;
+  color: var(--text_color) !important;
+}
+
+.MuiTableRow-root {
+  background-color: var(--background_color) !important;
+  color: var(--text_color) !important;
+  fill: var(--text_color) !important;
+}
+
+.dashboard-markdown > div > div > h1,
+.dashboard-markdown > div > div > h2,
+.dashboard-markdown > div > div > h3 {
+  color: var(--text_color) !important;
+}
+
+strong {
+  color: var(--text_color) !important;
+}
+
+.tds-icon {
+  color: var(--accent_color) !important;
+}
+
+.Select-control {
+  background-color: rgb(50, 50, 50) !important;
+  color: var(--text_color) !important;
+}
+
+.Select-input {
+  background-color: rgb(50, 50, 50) !important;
+  color: var(--background_color) !important;
+}
+
+.Select-value {
+  background-color: var(--accent_color) !important;
+}
+
+.tds-form-label {
+  color: var(--text_color) !important;
+}
+
+.MuiTable-root {
+  width: 100%;
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: var(--background_color);
+}
+
+.MuiIconButton-Label > svg > g > g {
+  fill: var(--text_color) !important;
+}
+
+.filterbox-v2-multiselect {
+  background-color: var(--background_color) !important;
+  color: var(--text_color) !important;
+}
+
+.filter_box {
+  color: var(--background_color) !important;
+}
+
 
