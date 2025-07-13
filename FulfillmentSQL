@@ -1,1 +1,187 @@
+-- Cleaned SQL Query
 
+WITH ShipmentData AS (
+    SELECT
+        LEFT(sd.PartNumber, 10) AS Base10_PN,
+        DATE(MIN(COALESCE(s.DeliveryDate, s.PlanDeliveryDate))) AS DeliveryDate,
+        s.ShipmentNumber AS SHP,
+        sd.PartDescription,
+        SUM(sd.ShippedQuantity) AS InTransitQTY,
+        loc.zip
+    FROM ShipmentFact s
+    LEFT JOIN ShipmentDetailFact sd ON s.ShipmentKey = sd.ShipmentKey
+    INNER JOIN (
+        SELECT DISTINCT LicensePlateKey, IsReceived
+        FROM LicensePlateDim
+        WHERE IsActive = 1
+    ) lp ON sd.LicensePlateKey = lp.LicensePlateKey
+    LEFT JOIN LocationDim loc ON loc.LocationKey = s.DestinationLocationKey
+    WHERE
+        loc.State IN (
+            'FLORIDA', 'TEXAS', 'COLORADO', 'MONTANA', 'OKLAHOMA',
+            'LOUISIANA', 'SOUTH DAKOTA', 'IDAHO', 'NORTH DAKOTA',
+            'WYOMING', 'NEBRASKA'
+        )
+        AND s.ShipmentNumber != 'N/A'
+        AND s.PlanDeliveryDate > '2025-05-01'
+        AND lp.IsReceived != TRUE
+        AND (
+            sd.PurchaseOrderNumber LIKE '75%' OR sd.PurchaseOrderNumber = 'N/A'
+        )
+        AND s.ShipmentStatus NOT IN ('CANCELLED', 'PENDING CANCELLATION')
+    GROUP BY
+        s.ShipmentNumber,
+        s.ShipmentStatus,
+        LEFT(sd.PartNumber, 10),
+        sd.PartDescription,
+        loc.zip
+),
+
+IPOData AS (
+    SELECT
+        DATEDIFF('day', po.CreatedDate, CURRENT_DATE) AS Aging_Days,
+        LEFT(po.PartNumber, 10) AS Base10_PN,
+        po.PartNumber AS PN,
+        CASE
+            WHEN po.SupplierCode IN ('XXXX', 'YYYY') THEN 'Assigned'
+            ELSE 'UnAssigned'
+        END AS AssignmentType,
+        mw.WarehouseName,
+        po.LineWarehouseName,
+        ma.postalcode,
+        loc.zip AS zip2,
+        po.PartKey,
+        po.WarehouseDescription,
+        CASE
+            WHEN po.LineWarehouseName = 'X001' THEN 'W001'
+            WHEN po.LineWarehouseName = 'X002' THEN 'W002'
+            ELSE po.LineWarehouseName
+        END AS WHCode,
+        CASE
+            WHEN sv.ProductCode != 'Resi' THEN 'Commercial'
+            WHEN sv.ProductCode = 'Resi' THEN 'Residential'
+            ELSE 'Other'
+        END AS Type,
+        po.PurchaseOrderNumber AS POnumber,
+        po.PartNumber,
+        po.OrderQuantity,
+        po.PartDescription AS Description,
+        u.DisplayName AS CreatedBy,
+        sv.ServiceVisitNumber AS SV
+    FROM PurchaseOrderFact po
+    LEFT JOIN CorrectionPartFact cp ON po.PurchaseOrderNumber = cp.RequestedOrderNumber
+    LEFT JOIN CorrectionFact c ON c.CorrectionID = cp.CorrectionID
+    LEFT JOIN UserDim u ON u.UserID = po.RequesterUserID
+    LEFT JOIN ServiceActivityFact sa ON sa.ActivityID = c.ActivityID
+    LEFT JOIN ServiceVisitDim sv ON sa.VisitID = sv.VisitID
+    LEFT JOIN LocationDim loc ON loc.ShipToAddressID = po.ShipToAddressID
+    LEFT JOIN MasterWarehouseDim mw ON mw.WarehouseName = po.LineWarehouseName
+    LEFT JOIN MasterAddressDim ma ON ma.AddressId = mw.AddressId
+    LEFT JOIN DeliveryFact d ON d.PurchaseOrderKey = po.PurchaseOrderKey
+    LEFT JOIN DeliveryDetailFact dd ON dd.PurchaseOrderKey = po.PurchaseOrderKey
+    WHERE
+        po.OrderQuantity > po.TotalReceivedQuantity
+        AND po.PurchaseOrderNumber LIKE '75%'
+        AND ma.State IN (
+            'FL', 'TX', 'CO', 'MT', 'OK', 'LA', 'SD', 'ID', 'ND', 'WY', 'NE'
+        )
+        AND (po.IsDeliveryComplete != 'TRUE' OR po.IsDeliveryComplete IS NULL)
+        AND mw.WarehouseType = 'Field Service Technician'
+        AND d.PurchaseOrderNumber LIKE '75%'
+        AND d.ShipDate > '2025-05-01'
+        AND po.CreatedDate > '2025-05-01'
+        AND dd.IsActive = '1'
+        AND dd.IsSourceDeleted = '0'
+        AND po.IsActive = '1'
+        AND d.IsActive = '1'
+),
+
+WarehouseA_Inventory AS (
+    SELECT
+        inv.PartKey,
+        SUM(inv.Quantity) AS WarehouseAInventory
+    FROM InventoryFact inv
+    LEFT JOIN LocationDim loc ON loc.LocationKey = inv.LocationKey AND loc.IsNettable = 'Yes'
+    LEFT JOIN WarehouseDim w ON inv.WarehouseKey = w.WarehouseKey AND w.WarehouseName = 'WHA'
+    WHERE w.WarehouseName = 'WHA' AND loc.IsNettable = 'Yes'
+    GROUP BY inv.PartKey
+),
+
+WarehouseB_Inventory AS (
+    SELECT
+        inv.PartKey,
+        SUM(inv.Quantity) AS WarehouseBInventory
+    FROM InventoryFact inv
+    LEFT JOIN LocationDim loc ON loc.LocationKey = inv.LocationKey AND loc.IsNettable = 'Yes'
+    LEFT JOIN WarehouseDim w ON inv.WarehouseKey = w.WarehouseKey AND w.WarehouseName = 'WHB'
+    WHERE w.WarehouseName = 'WHB' AND loc.IsNettable = 'Yes'
+    GROUP BY inv.PartKey
+),
+
+OnHand_Inventory AS (
+    SELECT
+        inv.PartKey,
+        w.WarehouseName,
+        SUM(inv.Quantity) AS OnHandInventory
+    FROM InventoryFact inv
+    LEFT JOIN LocationDim loc ON loc.LocationKey = inv.LocationKey AND loc.IsNettable = 'Yes'
+    LEFT JOIN WarehouseDim w ON inv.WarehouseKey = w.WarehouseKey
+    WHERE w.WarehouseName IN ('W001', 'W002', 'W003')
+        AND loc.IsNettable = 'Yes'
+        AND inv.Enabled = 1
+    GROUP BY inv.PartKey, w.WarehouseName
+),
+
+WarehouseC_Inventory AS (
+    SELECT
+        inv.PartKey,
+        w.WarehouseName,
+        SUM(inv.Quantity) AS OnHandInventory
+    FROM InventoryFact inv
+    LEFT JOIN LocationDim loc ON loc.LocationKey = inv.LocationKey AND loc.IsNettable = 'Yes'
+    LEFT JOIN WarehouseDim w ON inv.WarehouseKey = w.WarehouseKey
+    WHERE w.WarehouseName = 'WHC'
+        AND loc.IsNettable = 'Yes'
+        AND inv.Enabled = 1
+    GROUP BY inv.PartKey, w.WarehouseName
+)
+
+SELECT
+    MAX(p.Aging_Days) AS Aging_Days,
+    p.WarehouseDescription AS WH,
+    p.WHCode,
+    p.Type,
+    p.POnumber,
+    p.PN,
+    p.Base10_PN,
+    LEFT(p.Description, 40) AS Description,
+    MIN(p.CreatedBy) AS CreatedBy,
+    MIN(p.SV) AS SV,
+    p.OrderQuantity,
+    MAX(a.WarehouseAInventory) AS WarehouseAInvent,
+    MAX(b.WarehouseBInventory) AS WarehouseBInvent,
+    MAX(c.OnHandInventory) AS WarehouseCInvent,
+    MAX(o.OnHandInventory) AS OnHandInvent,
+    MAX(s.InTransitQTY) AS InTransitQTY,
+    MIN(s.DeliveryDate) AS DeliveryDate,
+    s.SHP,
+    p.AssignmentType
+FROM IPOData p
+LEFT JOIN ShipmentData s ON (p.postalcode = s.zip OR p.zip2 = s.zip) AND p.Base10_PN = s.Base10_PN
+LEFT JOIN WarehouseA_Inventory a ON a.PartKey = p.PartKey
+LEFT JOIN WarehouseB_Inventory b ON b.PartKey = p.PartKey
+LEFT JOIN OnHand_Inventory o ON o.WarehouseName = p.WHCode AND o.PartKey = p.PartKey
+LEFT JOIN WarehouseC_Inventory c ON c.PartKey = p.PartKey
+GROUP BY
+    p.WarehouseDescription,
+    p.WHCode,
+    p.PN,
+    p.Description,
+    p.Type,
+    p.POnumber,
+    p.Base10_PN,
+    p.OrderQuantity,
+    s.SHP,
+    p.AssignmentType
+ORDER BY Aging_Days DESC, p.POnumber
+LIMIT 1000
