@@ -1,0 +1,26 @@
+-- Used to generate QR codes in python
+import qrcode
+from PIL import Image
+
+start_num = 555555555
+count = 200
+
+qr_size = 100
+cols = 20
+rows = (count + cols - 1) // cols
+
+grid_img = Image.new('RGB', (cols * qr_size, rows * qr_size), 'white')
+
+for i in range(count):
+    num = str(start_num + i)
+    qr = qrcode.make(num)
+    qr = qr.resize((qr_size, qr_size), Image.Resampling.LANCZOS)
+    
+    x = (i % cols) * qr_size
+    y = (i // cols) * qr_size
+    
+    grid_img.paste(qr, (x, y))
+
+grid_img.save("qr_codes_grid.png")
+grid_img.show()
+
