@@ -24,3 +24,141 @@ for i in range(count):
 grid_img.save("qr_codes_grid.png")
 grid_img.show()
 
+
+
+-- Used to clean data 
+
+import pandas as pd
+import numpy as np
+
+df = pd.read_excel()
+df["Description"] = df["Description"].str.strip()  # Remove leading and trailing spaces
+df["Description"] = df["Description"].str.replace(r'\s+', ' ', regex=True).str.strip()   # Replace multiple spaces with a single space
+df["Description"] = df["Description"].str.replace(r'\d+', '', regex=True)  # Remove all numbers
+df["Description"] = df["Description"].str.replace(r'[^a-zA-Z0-9\s]', '', regex=True)  # Remove special characters
+df["Description"] = df["Description"].str.replace(r'\xa0', ' ', regex=True)  # Replace non-breaking spaces
+df["Description"] = df["Description"].str.replace(r'\s+', ' ', regex=True).str.strip()  # Replace multiple spaces again
+df["Description"] = df["Description"].str.replace(r'\xa0', ' ', regex=True)  # Replace non-breaking spaces
+df["Description"] = df["Description"].str.replace(r'\s+', ' ', regex=True).str.strip()  # Replace multiple spaces again
+
+
+
+
+''' The following lines were previously used to clean the "Description" column:
+df["Description"] = df["Description"].str.replace(r'\bcard\b', '', regex=True, case=False)  # Remove the word "card"
+df["Description"] = df["Description"].str.replace(r'\bpurchase\b', '', regex=True, case=False)  # Remove the word "purchase"
+df["Description"] = df["Description"].str.replace(r'\bonline\b', '', regex=True, case=False)  # Remove the word "online"
+df["Description"] = df["Description"].str.replace(r'\btransfer\b', '', regex=True, case=False)  # Remove the word "transfer"
+df["Description"] = df["Description"].str.replace(r'\bfrom\b', '', regex=True, case=False)  # Remove the word "from"
+df["Description"] = df["Description"].str.replace(r'\brecurring\b', '', regex=True, case=False)  # Remove the word "recurring"
+df["Description"] = df["Description"].str.replace(r'\bwith\b', '', regex=True, case=False)  # Remove the word "with"
+df["Description"] = df["Description"].str.replace(r'\bpin\b', '', regex=True, case=False)  # Remove the word "pin"
+df["Description"] = df["Description"].str.replace(r'\bwcash\b', '', regex=True, case=False)
+'''
+
+df = df.drop(columns=["Column1"], errors="ignore") # Drop the column "Column1" if it exists
+
+
+
+words_to_remove = r'\b(card|purchase|online|transfer|from|recurring|with|pin|wcash|grapevine)\b|Mobile|Pmt|MSeGzggxo|Web|ID|PdgtbfZfvy'
+df["Description"] = df["Description"].str.replace(words_to_remove, '', regex=True, case=False)  # Remove specified words
+
+'''The following lines were previously used to categorize transactions based on specific keywords:
+df["Vendor"] = pd.NA  # Initialize the column with None
+df.loc[df["Description"].str.contains(r'\bKlarna\b', regex=True, case=False), "Vendor"] = "Shopping"
+df.loc[df["Description"].str.contains(r'\bTorchys\b', regex=True, case=False), "Vendor"] = "Food"
+'''
+
+
+# Define categories and keywords
+categories = {
+    'Food & Drink': [
+        'starbucks', 'restaurant', 'coffee', 'mcdonald', 'chipotle', 'doordash','einsteinbros','chocalate','coldstone','lubys','buffet',
+        'ubereats', 'grubhub', 'hopdoddy', 'pizza', 'nayax', 'smokehouse', 'lupe tortilla','popeyes','heb','auntie','wine','chocolate','hibachi','innout',
+        'chick fil a', 'chick-fil-a', 'panda express', 'panda', 'taco bell', 'wendys', 'subway','zero degrees','fatburger'
+        'panera', 'papa johns', 'papa murphy', 'papa', 'dominos', 'pizza hut', 'wingstop',
+        'buffalo wild wings', 'taco cabana', 'taco casa', 'taco bueno','freebirds','five guys','pollo regio','pollo','fatburger',
+        'taco stand', 'taco shop', 'the hub', 'tom thumb', 'burger king', 'jack', 'five guys','gelato','los pinos','bww','back forty',
+        'torchys', 'shipley donuts', 'pho', 'steak', 'taco', 'saltgrass','michoacana','chicken','whataburger','raising canes','red crab','red lobster','smoothie','uber eats','grub hub',
+    ],
+    'Shopping': [
+        'amazon', 'target', 'walmart', 'klarna', 'macy', 'dicks', 'best buy', 'roosters','academy sports',
+        'sezzle', 'after pay', 'sephora', 'ulta', 'home depot', 'lowes', 'ikea','bestbuy',
+        'costco', 'sam’s club', 'kroger', 'aldi', 'trader joe', 'tj maxx','americas best','riflegear','visionworks','master eye','supercenter',
+        'ross', 'nordstrom', 'macys', 'jcpenney', 'burlington', 'gap', 'old navy','best buy',
+        'barnes & noble', 'bed bath & beyond', 'cabela', 'bass pro', 'cabelas','gun',''
+        'bass pro shops', 'petco', 'petsmart','sunglass hut', 'lenscrafters','gritrsportscom',
+        'banana republic', 'express', 'forever 21', 'h&m', 'zara', 'uniqlo', 'anthropologie',
+        'urban outfitters', 'free people', 'madewell', 'revolve', 'asos', 'boohoo', 'shein',
+        'lulus', 'modcloth', 'nasty gal', 'pretty little thing', 'zappos', 'foot locker',
+        'finish line', 'foot action', 'champs sports', 'nike', 'adidas', 'puma', 'under armour',
+        'reebok', 'new balance', 'converse', 'vans', 'skechers', 'crocs', 'dr martens', 'ugg',
+        'timberland', 'clarks', 'doc martens', 'steve madden', 'aldo', 'nine west',
+        'payless', 'famous footwear', 'shoe carnival', 'dillard', 'belk', 'bloomingdale',
+        'saks fifth avenue', 'neiman marcus', 'lord & taylor','guns','flowers','fossil','afterpay',
+        'bloomingdales', 'saks off 5th', 'neiman marcus last call',
+        'burlington coat factory', 'ross dress for less', 'marshalls', 'home goods',
+        'big lots', 'dollar tree', 'dollar general', 'family dollar', 'walgreens', 'cvs',
+    ],
+    'Income': [
+        'paycheck', 'salary', 'deposit', 'dailypay', 'payroll', 'tesla motors', 'purchase return','refund','return'
+    ],
+    'Utilities': [
+        'electric', 'water', 'gas', 'internet', 'car wash', 'attbill', 'reliant energy', 'fuel'
+    ],
+    'Rent': [
+        'rent', 'flex', 'lease'
+    ],
+    'Entertainment': [
+        'netflix', 'spotify', 'movie', 'prime video', 'apple tv', 'hbo', 'showtime', 'concert',
+        'event', 'theater', 'amc', 'cinemark', 'ticketmaster', 'live nation'
+    ],
+    'Subscriptions': [
+        'peacock', 'playstation', 'hulu', 'apple music', 'disney+', 'paramount', 'prime video',
+        'applecare', 'SuperstarcarwashMobapp', 'subscription', 'monthly fee', 'annual fee',
+        'recurring payment', 'membership','prime veo'
+    ],
+    'Fees': [
+        'capital one', 'bank', 'paypal', 'venmo', 'cash app', 'transfer', 'payment', 'fee',
+        'charge', 'sav', 'interest', 'loan', 'credit card', 'debit card', 'overdraft', 'late fee',
+        'atm fee', 'foreign transaction fee', 'wire transfer fee','upstart'
+    ],
+    'Withdrawl': [
+        'withdrawal', 'cash withdrawal', 'atm withdrawal'
+    ],
+    'Automotive': [
+        'car', 'qt', 'vehicle', 'auto', 'repair', 'maintenance', 'insurance', 'gasoline', 'tire',
+        'oil change', 'Qt Outside Eules', 'car wash','racetrac','texaco', 'shell', 'chevron', 'exxon',
+        'bp', 'mobil', 'valero', 'circle k', '7 eleven',
+        'conoco', 'sunoco', 'marathon', 'speedway', 'wawa', 'quiktrip', 'quick trip',
+        'pilot', 'flying j', 'love', 'travel centers of america', 'ta', 'petro',
+        'bucees', 'buckees', 'buc-ee', 'buccees', 'bucees', 'buccees gas', 'buccees car wash',
+    ],
+    'Services': [
+        'service', 'consulting', 'legal', 'accounting', 'cleaning', 'repair', 'maintenance',
+        'installation', 'landscaping', 'plumbing', 'electrician'
+    ],
+    'Uncategorized': []
+}
+
+# Function to categorize transactions
+def categorize(description):
+    for category, keywords in categories.items():
+        if any(keyword in description.lower() for keyword in keywords):
+            return category
+    return 'Uncategorized'
+
+# Apply categorization
+df["Vendor"] = df["Description"].apply(categorize)
+
+
+pd.set_option('display.max_rows', 150) # Display the first 150 rows of the DataFrame
+print(df.head(150))  # Show the first 150 rows
+
+
+# Save the DataFrame to an Excel file
+output_file_path = r"/Users/"
+df.to_excel(output_file_path, index=False)
+
+
+print(f"DataFrame successfully saved to {output_file_path}")
