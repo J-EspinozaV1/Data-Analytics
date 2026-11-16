@@ -1,0 +1,41 @@
+part_number,description,daily_usage,days_of_cover,max_units,pack_qty,max_packs,pack_cube_ft3,total_cube_ft3,storage_type,slots
+SP-10553,Coolant pump assy,9.8,6,59,1,59,3.855,227.434,Pallet rack bay,6
+SP-10608,Wall mount bracket rev B,8.3,17,142,4,36,5.173,186.221,Pallet rack bay,5
+SP-10591,Wall mount bracket,13.1,5,66,4,17,8.114,137.934,Pallet rack bay,4
+SP-10362,Gateway controller rev B,9.6,16,154,2,77,1.702,131.049,Pallet rack bay,4
+SP-10840,Power electronics board rev B,5.1,7,36,1,36,3.563,128.271,Pallet rack bay,4
+SP-10213,Mounting rail 14ft rev B,11.0,16,176,10,18,3.976,71.571,Cantilever rack,6
+SP-10337,Gateway controller,8.0,10,80,2,40,1.694,67.769,Pallet rack bay,2
+SP-10660,Meter socket,10.4,10,104,4,26,2.197,57.117,Pallet rack bay,2
+SP-10574,Coolant pump assy rev B,2.1,5,11,1,11,3.791,41.698,Pallet rack bay,1
+SP-10186,Mounting rail 14ft,8.6,17,147,10,15,2.066,30.992,Cantilever rack,3
+SP-10630,Comms cable 50ft,12.6,17,215,10,22,1.254,27.58,Pallet rack bay,1
+SP-10300,Battery module harness,8.7,7,61,5,13,1.821,23.668,Pallet rack bay,1
+SP-10835,Power electronics board,2.5,12,30,2,15,1.455,21.831,Pallet rack bay,1
+SP-10688,Meter socket rev B,2.0,7,14,4,4,3.36,13.44,Pallet rack bay,1
+SP-10318,Battery module harness rev B,2.6,10,26,5,6,2.003,12.016,Carton shelving,3
+SP-10497,Roof flashing kit,5.3,8,43,10,5,1.992,9.959,Carton shelving,3
+SP-10448,Conduit 1in x 10ft rev B,4.8,6,29,10,3,2.39,7.17,Cantilever rack,1
+SP-10427,Conduit 1in x 10ft,6.0,8,48,10,5,1.428,7.139,Cantilever rack,1
+SP-10515,Roof flashing kit rev B,2.7,16,44,10,5,1.129,5.643,Carton shelving,2
+SP-10740,Junction box rev B,8.5,8,68,12,6,0.757,4.544,Carton shelving,2
+SP-10652,Comms cable 50ft rev B,1.4,12,17,10,2,1.832,3.665,Carton shelving,1
+SP-10171,DC isolator switch rev B,7.2,10,72,10,8,0.252,2.016,Carton shelving,1
+SP-10713,Junction box,4.0,6,24,12,2,0.853,1.706,Bin shelving,4
+SP-10539,Thermal pad set,6.3,17,108,10,11,0.144,1.586,Bin shelving,4
+SP-10543,Thermal pad set rev B,8.5,7,60,10,6,0.262,1.57,Carton shelving,1
+SP-10411,Breaker 2P 40A rev B,6.2,17,106,12,9,0.09,0.81,Bin shelving,2
+SP-10391,Breaker 2P 40A,10.1,10,101,12,9,0.066,0.597,Bin shelving,2
+SP-10151,DC isolator switch,3.6,6,22,10,3,0.195,0.585,Bin shelving,2
+SP-10246,Rail splice kit rev B,5.7,9,52,20,3,0.128,0.383,Bin shelving,1
+SP-10218,Rail splice kit,5.6,9,51,20,3,0.088,0.263,Bin shelving,1
+SP-10777,Torque fastener kit rev B,3.2,8,26,25,2,0.126,0.252,Bin shelving,1
+SP-10768,Torque fastener kit,1.8,9,17,25,2,0.081,0.162,Bin shelving,1
+SP-10284,MC4 connector pair rev B,10.0,5,50,100,2,0.027,0.054,Bin shelving,1
+SP-10105,Inverter fuse 30A,2.6,5,13,50,2,0.017,0.033,Bin shelving,1
+SP-10127,Inverter fuse 30A rev B,1.7,16,28,50,2,0.017,0.033,Bin shelving,1
+SP-10809,Glass panel clip rev B,8.3,16,133,200,2,0.016,0.031,Bin shelving,1
+SP-10271,MC4 connector pair,5.4,6,33,100,2,0.012,0.024,Bin shelving,1
+SP-10463,Grounding lug,5.2,9,47,100,2,0.008,0.015,Bin shelving,1
+SP-10793,Glass panel clip,1.4,6,9,200,2,0.007,0.015,Bin shelving,1
+SP-10473,Grounding lug rev B,15.1,6,91,100,2,0.006,0.011,Bin shelving,1

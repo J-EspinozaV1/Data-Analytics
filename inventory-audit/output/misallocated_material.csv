@@ -1,0 +1,7 @@
+part_number,description,unit_cost,overage_qty,shortage_qty,misallocated_qty,misallocated_value
+SP-10337,Gateway controller,214.94,8,17,8,1719.52
+SP-10591,Wall mount bracket,45.97,9,17,9,413.73
+SP-10318,Battery module harness rev B,105.9,3,8,3,317.7
+SP-10171,DC isolator switch rev B,73.97,2,2,2,147.94
+SP-10768,Torque fastener kit,5.49,3,8,3,16.47
+SP-10809,Glass panel clip rev B,1.24,2,4,2,2.48

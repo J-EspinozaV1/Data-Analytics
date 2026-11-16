@@ -1,0 +1,9 @@
+site_code,site,lines_counted,accurate_lines,accuracy_pct,system_value,shortage_value,overage_value,net_variance_value
+ABQ,"Albuquerque, NM",28,20,71.4,77607.7,-3928.16,334.63,-3593.53
+ORL,"Orlando, FL",28,21,75.0,75833.82,-3645.33,4690.92,1045.59
+AUS,"Austin, TX",28,22,78.6,49398.54,-994.8,701.13,-293.67
+HOU,"Houston, TX",28,22,78.6,70179.64,-2205.24,19.3,-2185.94
+DAL,"Dallas, TX",28,23,82.1,50323.51,-338.64,190.44,-148.2
+DEN,"Denver, CO",28,23,82.1,74022.6,-67.5,965.28,897.78
+CHI,"Chicago, IL",28,25,89.3,45918.34,-374.78,7.88,-366.9
+TPA,"Tampa, FL",28,26,92.9,50263.83,-257.15,1722.95,1465.8

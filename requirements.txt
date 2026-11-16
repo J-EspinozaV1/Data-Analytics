@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+openpyxl>=3.1      # only for reading .xlsx in utilities/expense_categorizer.py
+qrcode>=7.4        # only for utilities/qr_code_generator.py
+pillow>=10.0

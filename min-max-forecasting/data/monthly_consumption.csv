@@ -1,0 +1,289 @@
+month,part_number,description,qty_consumed
+2023-07,SP-10473,Grounding lug rev B,83
+2023-08,SP-10473,Grounding lug rev B,77
+2023-09,SP-10473,Grounding lug rev B,98
+2023-10,SP-10473,Grounding lug rev B,65
+2023-11,SP-10473,Grounding lug rev B,98
+2023-12,SP-10473,Grounding lug rev B,69
+2024-01,SP-10473,Grounding lug rev B,57
+2024-02,SP-10473,Grounding lug rev B,82
+2024-03,SP-10473,Grounding lug rev B,71
+2024-04,SP-10473,Grounding lug rev B,84
+2024-05,SP-10473,Grounding lug rev B,111
+2024-06,SP-10473,Grounding lug rev B,119
+2024-07,SP-10473,Grounding lug rev B,97
+2024-08,SP-10473,Grounding lug rev B,126
+2024-09,SP-10473,Grounding lug rev B,124
+2024-10,SP-10473,Grounding lug rev B,124
+2024-11,SP-10473,Grounding lug rev B,105
+2024-12,SP-10473,Grounding lug rev B,120
+2025-01,SP-10473,Grounding lug rev B,66
+2025-02,SP-10473,Grounding lug rev B,102
+2025-03,SP-10473,Grounding lug rev B,101
+2025-04,SP-10473,Grounding lug rev B,133
+2025-05,SP-10473,Grounding lug rev B,125
+2025-06,SP-10473,Grounding lug rev B,141
+2023-07,SP-10427,Conduit 1in x 10ft,117
+2023-08,SP-10427,Conduit 1in x 10ft,122
+2023-09,SP-10427,Conduit 1in x 10ft,115
+2023-10,SP-10427,Conduit 1in x 10ft,118
+2023-11,SP-10427,Conduit 1in x 10ft,127
+2023-12,SP-10427,Conduit 1in x 10ft,137
+2024-01,SP-10427,Conduit 1in x 10ft,118
+2024-02,SP-10427,Conduit 1in x 10ft,136
+2024-03,SP-10427,Conduit 1in x 10ft,109
+2024-04,SP-10427,Conduit 1in x 10ft,151
+2024-05,SP-10427,Conduit 1in x 10ft,195
+2024-06,SP-10427,Conduit 1in x 10ft,203
+2024-07,SP-10427,Conduit 1in x 10ft,184
+2024-08,SP-10427,Conduit 1in x 10ft,201
+2024-09,SP-10427,Conduit 1in x 10ft,181
+2024-10,SP-10427,Conduit 1in x 10ft,192
+2024-11,SP-10427,Conduit 1in x 10ft,160
+2024-12,SP-10427,Conduit 1in x 10ft,143
+2025-01,SP-10427,Conduit 1in x 10ft,172
+2025-02,SP-10427,Conduit 1in x 10ft,84
+2025-03,SP-10427,Conduit 1in x 10ft,213
+2025-04,SP-10427,Conduit 1in x 10ft,76
+2025-05,SP-10427,Conduit 1in x 10ft,166
+2025-06,SP-10427,Conduit 1in x 10ft,274
+2023-07,SP-10411,Breaker 2P 40A rev B,243
+2023-08,SP-10411,Breaker 2P 40A rev B,178
+2023-09,SP-10411,Breaker 2P 40A rev B,273
+2023-10,SP-10411,Breaker 2P 40A rev B,193
+2023-11,SP-10411,Breaker 2P 40A rev B,207
+2023-12,SP-10411,Breaker 2P 40A rev B,253
+2024-01,SP-10411,Breaker 2P 40A rev B,207
+2024-02,SP-10411,Breaker 2P 40A rev B,173
+2024-03,SP-10411,Breaker 2P 40A rev B,219
+2024-04,SP-10411,Breaker 2P 40A rev B,234
+2024-05,SP-10411,Breaker 2P 40A rev B,186
+2024-06,SP-10411,Breaker 2P 40A rev B,242
+2024-07,SP-10411,Breaker 2P 40A rev B,224
+2024-08,SP-10411,Breaker 2P 40A rev B,302
+2024-09,SP-10411,Breaker 2P 40A rev B,259
+2024-10,SP-10411,Breaker 2P 40A rev B,242
+2024-11,SP-10411,Breaker 2P 40A rev B,251
+2024-12,SP-10411,Breaker 2P 40A rev B,270
+2025-01,SP-10411,Breaker 2P 40A rev B,297
+2025-02,SP-10411,Breaker 2P 40A rev B,230
+2025-03,SP-10411,Breaker 2P 40A rev B,240
+2025-04,SP-10411,Breaker 2P 40A rev B,374
+2025-05,SP-10411,Breaker 2P 40A rev B,302
+2025-06,SP-10411,Breaker 2P 40A rev B,251
+2023-07,SP-10591,Wall mount bracket,120
+2023-08,SP-10591,Wall mount bracket,132
+2023-09,SP-10591,Wall mount bracket,123
+2023-10,SP-10591,Wall mount bracket,126
+2023-11,SP-10591,Wall mount bracket,85
+2023-12,SP-10591,Wall mount bracket,124
+2024-01,SP-10591,Wall mount bracket,118
+2024-02,SP-10591,Wall mount bracket,125
+2024-03,SP-10591,Wall mount bracket,176
+2024-04,SP-10591,Wall mount bracket,214
+2024-05,SP-10591,Wall mount bracket,245
+2024-06,SP-10591,Wall mount bracket,243
+2024-07,SP-10591,Wall mount bracket,199
+2024-08,SP-10591,Wall mount bracket,217
+2024-09,SP-10591,Wall mount bracket,230
+2024-10,SP-10591,Wall mount bracket,204
+2024-11,SP-10591,Wall mount bracket,204
+2024-12,SP-10591,Wall mount bracket,236
+2025-01,SP-10591,Wall mount bracket,216
+2025-02,SP-10591,Wall mount bracket,209
+2025-03,SP-10591,Wall mount bracket,248
+2025-04,SP-10591,Wall mount bracket,332
+2025-05,SP-10591,Wall mount bracket,325
+2025-06,SP-10591,Wall mount bracket,366
+2023-07,SP-10186,Mounting rail 14ft,173
+2023-08,SP-10186,Mounting rail 14ft,123
+2023-09,SP-10186,Mounting rail 14ft,189
+2023-10,SP-10186,Mounting rail 14ft,128
+2023-11,SP-10186,Mounting rail 14ft,95
+2023-12,SP-10186,Mounting rail 14ft,111
+2024-01,SP-10186,Mounting rail 14ft,119
+2024-02,SP-10186,Mounting rail 14ft,164
+2024-03,SP-10186,Mounting rail 14ft,177
+2024-04,SP-10186,Mounting rail 14ft,197
+2024-05,SP-10186,Mounting rail 14ft,257
+2024-06,SP-10186,Mounting rail 14ft,260
+2024-07,SP-10186,Mounting rail 14ft,262
+2024-08,SP-10186,Mounting rail 14ft,260
+2024-09,SP-10186,Mounting rail 14ft,256
+2024-10,SP-10186,Mounting rail 14ft,134
+2024-11,SP-10186,Mounting rail 14ft,194
+2024-12,SP-10186,Mounting rail 14ft,127
+2025-01,SP-10186,Mounting rail 14ft,225
+2025-02,SP-10186,Mounting rail 14ft,250
+2025-03,SP-10186,Mounting rail 14ft,339
+2025-04,SP-10186,Mounting rail 14ft,391
+2025-05,SP-10186,Mounting rail 14ft,368
+2025-06,SP-10186,Mounting rail 14ft,341
+2023-07,SP-10337,Gateway controller,34
+2023-08,SP-10337,Gateway controller,24
+2023-09,SP-10337,Gateway controller,29
+2023-10,SP-10337,Gateway controller,26
+2023-11,SP-10337,Gateway controller,17
+2023-12,SP-10337,Gateway controller,25
+2024-01,SP-10337,Gateway controller,25
+2024-02,SP-10337,Gateway controller,26
+2024-03,SP-10337,Gateway controller,25
+2024-04,SP-10337,Gateway controller,28
+2024-05,SP-10337,Gateway controller,33
+2024-06,SP-10337,Gateway controller,43
+2024-07,SP-10337,Gateway controller,32
+2024-08,SP-10337,Gateway controller,40
+2024-09,SP-10337,Gateway controller,26
+2024-10,SP-10337,Gateway controller,30
+2024-11,SP-10337,Gateway controller,29
+2024-12,SP-10337,Gateway controller,41
+2025-01,SP-10337,Gateway controller,23
+2025-02,SP-10337,Gateway controller,44
+2025-03,SP-10337,Gateway controller,41
+2025-04,SP-10337,Gateway controller,49
+2025-05,SP-10337,Gateway controller,51
+2025-06,SP-10337,Gateway controller,57
+2023-07,SP-10809,Glass panel clip rev B,133
+2023-08,SP-10809,Glass panel clip rev B,93
+2023-09,SP-10809,Glass panel clip rev B,96
+2023-10,SP-10809,Glass panel clip rev B,71
+2023-11,SP-10809,Glass panel clip rev B,89
+2023-12,SP-10809,Glass panel clip rev B,102
+2024-01,SP-10809,Glass panel clip rev B,84
+2024-02,SP-10809,Glass panel clip rev B,92
+2024-03,SP-10809,Glass panel clip rev B,86
+2024-04,SP-10809,Glass panel clip rev B,117
+2024-05,SP-10809,Glass panel clip rev B,95
+2024-06,SP-10809,Glass panel clip rev B,116
+2024-07,SP-10809,Glass panel clip rev B,144
+2024-08,SP-10809,Glass panel clip rev B,163
+2024-09,SP-10809,Glass panel clip rev B,183
+2024-10,SP-10809,Glass panel clip rev B,99
+2024-11,SP-10809,Glass panel clip rev B,129
+2024-12,SP-10809,Glass panel clip rev B,105
+2025-01,SP-10809,Glass panel clip rev B,103
+2025-02,SP-10809,Glass panel clip rev B,128
+2025-03,SP-10809,Glass panel clip rev B,137
+2025-04,SP-10809,Glass panel clip rev B,156
+2025-05,SP-10809,Glass panel clip rev B,154
+2025-06,SP-10809,Glass panel clip rev B,130
+2023-07,SP-10608,Wall mount bracket rev B,169
+2023-08,SP-10608,Wall mount bracket rev B,184
+2023-09,SP-10608,Wall mount bracket rev B,200
+2023-10,SP-10608,Wall mount bracket rev B,172
+2023-11,SP-10608,Wall mount bracket rev B,141
+2023-12,SP-10608,Wall mount bracket rev B,195
+2024-01,SP-10608,Wall mount bracket rev B,213
+2024-02,SP-10608,Wall mount bracket rev B,194
+2024-03,SP-10608,Wall mount bracket rev B,228
+2024-04,SP-10608,Wall mount bracket rev B,258
+2024-05,SP-10608,Wall mount bracket rev B,270
+2024-06,SP-10608,Wall mount bracket rev B,257
+2024-07,SP-10608,Wall mount bracket rev B,257
+2024-08,SP-10608,Wall mount bracket rev B,246
+2024-09,SP-10608,Wall mount bracket rev B,172
+2024-10,SP-10608,Wall mount bracket rev B,229
+2024-11,SP-10608,Wall mount bracket rev B,148
+2024-12,SP-10608,Wall mount bracket rev B,167
+2025-01,SP-10608,Wall mount bracket rev B,251
+2025-02,SP-10608,Wall mount bracket rev B,251
+2025-03,SP-10608,Wall mount bracket rev B,301
+2025-04,SP-10608,Wall mount bracket rev B,245
+2025-05,SP-10608,Wall mount bracket rev B,218
+2025-06,SP-10608,Wall mount bracket rev B,272
+2023-07,SP-10840,Power electronics board rev B,45
+2023-08,SP-10840,Power electronics board rev B,52
+2023-09,SP-10840,Power electronics board rev B,41
+2023-10,SP-10840,Power electronics board rev B,54
+2023-11,SP-10840,Power electronics board rev B,51
+2023-12,SP-10840,Power electronics board rev B,46
+2024-01,SP-10840,Power electronics board rev B,53
+2024-02,SP-10840,Power electronics board rev B,58
+2024-03,SP-10840,Power electronics board rev B,62
+2024-04,SP-10840,Power electronics board rev B,93
+2024-05,SP-10840,Power electronics board rev B,74
+2024-06,SP-10840,Power electronics board rev B,76
+2024-07,SP-10840,Power electronics board rev B,51
+2024-08,SP-10840,Power electronics board rev B,70
+2024-09,SP-10840,Power electronics board rev B,81
+2024-10,SP-10840,Power electronics board rev B,75
+2024-11,SP-10840,Power electronics board rev B,109
+2024-12,SP-10840,Power electronics board rev B,87
+2025-01,SP-10840,Power electronics board rev B,117
+2025-02,SP-10840,Power electronics board rev B,103
+2025-03,SP-10840,Power electronics board rev B,111
+2025-04,SP-10840,Power electronics board rev B,118
+2025-05,SP-10840,Power electronics board rev B,128
+2025-06,SP-10840,Power electronics board rev B,177
+2023-07,SP-10218,Rail splice kit,93
+2023-08,SP-10218,Rail splice kit,103
+2023-09,SP-10218,Rail splice kit,97
+2023-10,SP-10218,Rail splice kit,80
+2023-11,SP-10218,Rail splice kit,101
+2023-12,SP-10218,Rail splice kit,101
+2024-01,SP-10218,Rail splice kit,91
+2024-02,SP-10218,Rail splice kit,109
+2024-03,SP-10218,Rail splice kit,104
+2024-04,SP-10218,Rail splice kit,95
+2024-05,SP-10218,Rail splice kit,126
+2024-06,SP-10218,Rail splice kit,117
+2024-07,SP-10218,Rail splice kit,116
+2024-08,SP-10218,Rail splice kit,145
+2024-09,SP-10218,Rail splice kit,62
+2024-10,SP-10218,Rail splice kit,80
+2024-11,SP-10218,Rail splice kit,84
+2024-12,SP-10218,Rail splice kit,100
+2025-01,SP-10218,Rail splice kit,105
+2025-02,SP-10218,Rail splice kit,85
+2025-03,SP-10218,Rail splice kit,102
+2025-04,SP-10218,Rail splice kit,112
+2025-05,SP-10218,Rail splice kit,202
+2025-06,SP-10218,Rail splice kit,191
+2023-07,SP-10574,Coolant pump assy rev B,18
+2023-08,SP-10574,Coolant pump assy rev B,26
+2023-09,SP-10574,Coolant pump assy rev B,20
+2023-10,SP-10574,Coolant pump assy rev B,23
+2023-11,SP-10574,Coolant pump assy rev B,15
+2023-12,SP-10574,Coolant pump assy rev B,18
+2024-01,SP-10574,Coolant pump assy rev B,23
+2024-02,SP-10574,Coolant pump assy rev B,26
+2024-03,SP-10574,Coolant pump assy rev B,29
+2024-04,SP-10574,Coolant pump assy rev B,22
+2024-05,SP-10574,Coolant pump assy rev B,36
+2024-06,SP-10574,Coolant pump assy rev B,28
+2024-07,SP-10574,Coolant pump assy rev B,36
+2024-08,SP-10574,Coolant pump assy rev B,31
+2024-09,SP-10574,Coolant pump assy rev B,22
+2024-10,SP-10574,Coolant pump assy rev B,25
+2024-11,SP-10574,Coolant pump assy rev B,27
+2024-12,SP-10574,Coolant pump assy rev B,27
+2025-01,SP-10574,Coolant pump assy rev B,25
+2025-02,SP-10574,Coolant pump assy rev B,36
+2025-03,SP-10574,Coolant pump assy rev B,37
+2025-04,SP-10574,Coolant pump assy rev B,32
+2025-05,SP-10574,Coolant pump assy rev B,41
+2025-06,SP-10574,Coolant pump assy rev B,51
+2023-07,SP-10284,MC4 connector pair rev B,184
+2023-08,SP-10284,MC4 connector pair rev B,112
+2023-09,SP-10284,MC4 connector pair rev B,99
+2023-10,SP-10284,MC4 connector pair rev B,109
+2023-11,SP-10284,MC4 connector pair rev B,121
+2023-12,SP-10284,MC4 connector pair rev B,109
+2024-01,SP-10284,MC4 connector pair rev B,103
+2024-02,SP-10284,MC4 connector pair rev B,113
+2024-03,SP-10284,MC4 connector pair rev B,125
+2024-04,SP-10284,MC4 connector pair rev B,135
+2024-05,SP-10284,MC4 connector pair rev B,245
+2024-06,SP-10284,MC4 connector pair rev B,190
+2024-07,SP-10284,MC4 connector pair rev B,208
+2024-08,SP-10284,MC4 connector pair rev B,157
+2024-09,SP-10284,MC4 connector pair rev B,155
+2024-10,SP-10284,MC4 connector pair rev B,129
+2024-11,SP-10284,MC4 connector pair rev B,72
+2024-12,SP-10284,MC4 connector pair rev B,103
+2025-01,SP-10284,MC4 connector pair rev B,97
+2025-02,SP-10284,MC4 connector pair rev B,94
+2025-03,SP-10284,MC4 connector pair rev B,140
+2025-04,SP-10284,MC4 connector pair rev B,246
+2025-05,SP-10284,MC4 connector pair rev B,213
+2025-06,SP-10284,MC4 connector pair rev B,275

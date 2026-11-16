@@ -1,0 +1,225 @@
+site_code,city,state,part_number,description,bin_location,unit_cost,system_qty,counted_qty,variance_qty,variance_value,audit_result
+ORL,Orlando,FL,SP-10835,Power electronics board,A-06,305.85,26,40,14,4281.9,Overage
+ORL,Orlando,FL,SP-10337,Gateway controller,E-08,214.94,46,34,-12,-2579.28,Shortage
+ABQ,Albuquerque,NM,SP-10362,Gateway controller rev B,E-18,202.51,20,8,-12,-2430.12,Shortage
+TPA,Tampa,FL,SP-10337,Gateway controller,A-19,214.94,31,39,8,1719.52,Overage
+HOU,Houston,TX,SP-10553,Coolant pump assy,C-11,216.68,39,32,-7,-1516.76,Shortage
+ABQ,Albuquerque,NM,SP-10337,Gateway controller,D-08,214.94,56,51,-5,-1074.7,Shortage
+AUS,Austin,TX,SP-10318,Battery module harness rev B,A-16,105.9,38,30,-8,-847.2,Shortage
+DEN,Denver,CO,SP-10660,Meter socket,A-06,65.18,4,16,12,782.16,Overage
+ORL,Orlando,FL,SP-10688,Meter socket rev B,C-16,56.57,33,21,-12,-678.84,Shortage
+HOU,Houston,TX,SP-10591,Wall mount bracket,E-12,45.97,46,36,-10,-459.7,Shortage
+AUS,Austin,TX,SP-10591,Wall mount bracket,B-08,45.97,10,19,9,413.73,Overage
+ORL,Orlando,FL,SP-10591,Wall mount bracket,F-04,45.97,8,1,-7,-321.79,Shortage
+ORL,Orlando,FL,SP-10318,Battery module harness rev B,B-19,105.9,39,42,3,317.7,Overage
+DAL,Dallas,TX,SP-10515,Roof flashing kit rev B,C-15,23.16,57,44,-13,-301.08,Shortage
+CHI,Chicago,IL,SP-10840,Power electronics board rev B,A-07,256.11,6,5,-1,-256.11,Accurate
+TPA,Tampa,FL,SP-10497,Roof flashing kit,A-13,17.3,12,0,-12,-207.6,Shortage
+ABQ,Albuquerque,NM,SP-10539,Thermal pad set,B-10,27.41,45,38,-7,-191.87,Shortage
+ABQ,Albuquerque,NM,SP-10411,Breaker 2P 40A rev B,F-12,26.67,59,66,7,186.69,Overage
+ABQ,Albuquerque,NM,SP-10127,Inverter fuse 30A rev B,C-08,13.5,44,33,-11,-148.5,Shortage
+HOU,Houston,TX,SP-10171,DC isolator switch rev B,F-16,73.97,17,15,-2,-147.94,Shortage
+ABQ,Albuquerque,NM,SP-10171,DC isolator switch rev B,D-15,73.97,7,9,2,147.94,Overage
+AUS,Austin,TX,SP-10151,DC isolator switch,A-13,73.8,15,13,-2,-147.6,Shortage
+DEN,Denver,CO,SP-10213,Mounting rail 14ft rev B,C-04,47.08,40,43,3,141.24,Overage
+AUS,Austin,TX,SP-10713,Junction box,D-09,22.93,46,52,6,137.58,Overage
+AUS,Austin,TX,SP-10411,Breaker 2P 40A rev B,A-13,26.67,4,9,5,133.35,Overage
+CHI,Chicago,IL,SP-10539,Thermal pad set,A-18,27.41,10,6,-4,-109.64,Shortage
+DAL,Dallas,TX,SP-10186,Mounting rail 14ft,F-09,49.46,59,61,2,98.92,Overage
+DAL,Dallas,TX,SP-10391,Breaker 2P 40A,B-14,22.88,48,52,4,91.52,Overage
+ORL,Orlando,FL,SP-10300,Battery module harness,A-05,68.39,25,26,1,68.39,Accurate
+DEN,Denver,CO,SP-10127,Inverter fuse 30A rev B,A-01,13.5,18,13,-5,-67.5,Shortage
+HOU,Houston,TX,SP-10427,Conduit 1in x 10ft,F-07,11.23,50,44,-6,-67.38,Shortage
+ORL,Orlando,FL,SP-10246,Rail splice kit rev B,A-10,11.0,47,43,-4,-44.0,Shortage
+ABQ,Albuquerque,NM,SP-10768,Torque fastener kit,D-10,5.49,11,3,-8,-43.92,Shortage
+DEN,Denver,CO,SP-10463,Grounding lug,E-05,3.94,29,39,10,39.4,Overage
+DAL,Dallas,TX,SP-10427,Conduit 1in x 10ft,B-12,11.23,18,15,-3,-33.69,Shortage
+ABQ,Albuquerque,NM,SP-10427,Conduit 1in x 10ft,E-12,11.23,26,23,-3,-33.69,Shortage
+TPA,Tampa,FL,SP-10411,Breaker 2P 40A rev B,C-11,26.67,37,36,-1,-26.67,Accurate
+ORL,Orlando,FL,SP-10713,Junction box,C-01,22.93,44,45,1,22.93,Accurate
+TPA,Tampa,FL,SP-10391,Breaker 2P 40A,C-10,22.88,16,15,-1,-22.88,Accurate
+ORL,Orlando,FL,SP-10218,Rail splice kit,F-10,7.14,19,16,-3,-21.42,Shortage
+HOU,Houston,TX,SP-10271,MC4 connector pair,D-04,3.86,26,31,5,19.3,Overage
+AUS,Austin,TX,SP-10768,Torque fastener kit,F-14,5.49,58,61,3,16.47,Overage
+CHI,Chicago,IL,SP-10793,Glass panel clip,A-12,1.29,49,42,-7,-9.03,Shortage
+HOU,Houston,TX,SP-10777,Torque fastener kit rev B,B-18,8.5,10,9,-1,-8.5,Accurate
+CHI,Chicago,IL,SP-10463,Grounding lug,E-06,3.94,11,13,2,7.88,Overage
+ABQ,Albuquerque,NM,SP-10284,MC4 connector pair rev B,F-17,5.36,59,58,-1,-5.36,Accurate
+HOU,Houston,TX,SP-10809,Glass panel clip rev B,E-02,1.24,8,4,-4,-4.96,Shortage
+DAL,Dallas,TX,SP-10793,Glass panel clip,D-02,1.29,38,35,-3,-3.87,Shortage
+DEN,Denver,CO,SP-10809,Glass panel clip rev B,D-09,1.24,16,18,2,2.48,Overage
+TPA,Tampa,FL,SP-10473,Grounding lug rev B,D-02,2.19,25,26,1,2.19,Accurate
+TPA,Tampa,FL,SP-10809,Glass panel clip rev B,F-08,1.24,2,3,1,1.24,Accurate
+HOU,Houston,TX,SP-10608,Wall mount bracket rev B,D-11,48.85,55,55,0,0.0,Accurate
+HOU,Houston,TX,SP-10740,Junction box rev B,E-03,17.74,38,38,0,0.0,Accurate
+HOU,Houston,TX,SP-10652,Comms cable 50ft rev B,E-13,17.55,44,44,0,0.0,Accurate
+HOU,Houston,TX,SP-10362,Gateway controller rev B,A-06,202.51,51,51,0,0.0,Accurate
+HOU,Houston,TX,SP-10768,Torque fastener kit,E-07,5.49,16,16,0,0.0,Accurate
+HOU,Houston,TX,SP-10835,Power electronics board,F-09,305.85,25,25,0,0.0,Accurate
+HOU,Houston,TX,SP-10543,Thermal pad set rev B,C-12,22.56,8,8,0,0.0,Accurate
+HOU,Houston,TX,SP-10318,Battery module harness rev B,F-03,105.9,55,55,0,0.0,Accurate
+HOU,Houston,TX,SP-10246,Rail splice kit rev B,A-11,11.0,35,35,0,0.0,Accurate
+HOU,Houston,TX,SP-10337,Gateway controller,A-16,214.94,43,43,0,0.0,Accurate
+HOU,Houston,TX,SP-10218,Rail splice kit,D-16,7.14,26,26,0,0.0,Accurate
+HOU,Houston,TX,SP-10539,Thermal pad set,B-14,27.41,50,50,0,0.0,Accurate
+HOU,Houston,TX,SP-10688,Meter socket rev B,F-10,56.57,47,47,0,0.0,Accurate
+HOU,Houston,TX,SP-10515,Roof flashing kit rev B,B-13,23.16,53,53,0,0.0,Accurate
+HOU,Houston,TX,SP-10713,Junction box,C-01,22.93,57,57,0,0.0,Accurate
+HOU,Houston,TX,SP-10660,Meter socket,D-02,65.18,55,55,0,0.0,Accurate
+HOU,Houston,TX,SP-10186,Mounting rail 14ft,E-12,49.46,35,35,0,0.0,Accurate
+HOU,Houston,TX,SP-10151,DC isolator switch,A-07,73.8,44,44,0,0.0,Accurate
+HOU,Houston,TX,SP-10300,Battery module harness,F-15,68.39,58,58,0,0.0,Accurate
+HOU,Houston,TX,SP-10448,Conduit 1in x 10ft rev B,D-02,9.44,41,41,0,0.0,Accurate
+HOU,Houston,TX,SP-10463,Grounding lug,C-12,3.94,27,27,0,0.0,Accurate
+DAL,Dallas,TX,SP-10151,DC isolator switch,E-07,73.8,23,23,0,0.0,Accurate
+DAL,Dallas,TX,SP-10809,Glass panel clip rev B,B-06,1.24,24,24,0,0.0,Accurate
+DAL,Dallas,TX,SP-10768,Torque fastener kit,C-13,5.49,28,28,0,0.0,Accurate
+DAL,Dallas,TX,SP-10127,Inverter fuse 30A rev B,E-13,13.5,48,48,0,0.0,Accurate
+DAL,Dallas,TX,SP-10337,Gateway controller,F-19,214.94,31,31,0,0.0,Accurate
+DAL,Dallas,TX,SP-10300,Battery module harness,F-19,68.39,56,56,0,0.0,Accurate
+DAL,Dallas,TX,SP-10574,Coolant pump assy rev B,C-15,215.03,48,48,0,0.0,Accurate
+DAL,Dallas,TX,SP-10840,Power electronics board rev B,A-04,256.11,4,4,0,0.0,Accurate
+DAL,Dallas,TX,SP-10271,MC4 connector pair,D-10,3.86,9,9,0,0.0,Accurate
+DAL,Dallas,TX,SP-10660,Meter socket,F-16,65.18,41,41,0,0.0,Accurate
+DAL,Dallas,TX,SP-10543,Thermal pad set rev B,A-18,22.56,30,30,0,0.0,Accurate
+DAL,Dallas,TX,SP-10218,Rail splice kit,E-02,7.14,8,8,0,0.0,Accurate
+DAL,Dallas,TX,SP-10105,Inverter fuse 30A,F-15,11.07,40,40,0,0.0,Accurate
+DAL,Dallas,TX,SP-10473,Grounding lug rev B,E-18,2.19,40,40,0,0.0,Accurate
+DAL,Dallas,TX,SP-10284,MC4 connector pair rev B,E-07,5.36,46,46,0,0.0,Accurate
+DAL,Dallas,TX,SP-10777,Torque fastener kit rev B,F-03,8.5,20,20,0,0.0,Accurate
+DAL,Dallas,TX,SP-10411,Breaker 2P 40A rev B,E-08,26.67,56,56,0,0.0,Accurate
+DAL,Dallas,TX,SP-10362,Gateway controller rev B,F-18,202.51,44,44,0,0.0,Accurate
+DAL,Dallas,TX,SP-10630,Comms cable 50ft,A-08,19.69,47,47,0,0.0,Accurate
+DAL,Dallas,TX,SP-10553,Coolant pump assy,F-03,216.68,17,17,0,0.0,Accurate
+DAL,Dallas,TX,SP-10713,Junction box,D-11,22.93,29,29,0,0.0,Accurate
+DAL,Dallas,TX,SP-10539,Thermal pad set,C-06,27.41,7,7,0,0.0,Accurate
+DAL,Dallas,TX,SP-10463,Grounding lug,A-06,3.94,28,28,0,0.0,Accurate
+AUS,Austin,TX,SP-10660,Meter socket,E-08,65.18,44,44,0,0.0,Accurate
+AUS,Austin,TX,SP-10630,Comms cable 50ft,F-15,19.69,4,4,0,0.0,Accurate
+AUS,Austin,TX,SP-10539,Thermal pad set,E-18,27.41,39,39,0,0.0,Accurate
+AUS,Austin,TX,SP-10777,Torque fastener kit rev B,C-03,8.5,3,3,0,0.0,Accurate
+AUS,Austin,TX,SP-10543,Thermal pad set rev B,A-18,22.56,47,47,0,0.0,Accurate
+AUS,Austin,TX,SP-10688,Meter socket rev B,A-01,56.57,40,40,0,0.0,Accurate
+AUS,Austin,TX,SP-10740,Junction box rev B,F-16,17.74,4,4,0,0.0,Accurate
+AUS,Austin,TX,SP-10362,Gateway controller rev B,C-04,202.51,50,50,0,0.0,Accurate
+AUS,Austin,TX,SP-10171,DC isolator switch rev B,D-15,73.97,9,9,0,0.0,Accurate
+AUS,Austin,TX,SP-10105,Inverter fuse 30A,B-02,11.07,5,5,0,0.0,Accurate
+AUS,Austin,TX,SP-10809,Glass panel clip rev B,F-10,1.24,32,32,0,0.0,Accurate
+AUS,Austin,TX,SP-10463,Grounding lug,D-05,3.94,6,6,0,0.0,Accurate
+AUS,Austin,TX,SP-10218,Rail splice kit,E-08,7.14,28,28,0,0.0,Accurate
+AUS,Austin,TX,SP-10271,MC4 connector pair,F-11,3.86,47,47,0,0.0,Accurate
+AUS,Austin,TX,SP-10337,Gateway controller,E-09,214.94,33,33,0,0.0,Accurate
+AUS,Austin,TX,SP-10515,Roof flashing kit rev B,A-14,23.16,11,11,0,0.0,Accurate
+AUS,Austin,TX,SP-10652,Comms cable 50ft rev B,C-19,17.55,54,54,0,0.0,Accurate
+AUS,Austin,TX,SP-10793,Glass panel clip,B-12,1.29,56,56,0,0.0,Accurate
+AUS,Austin,TX,SP-10835,Power electronics board,D-19,305.85,47,47,0,0.0,Accurate
+AUS,Austin,TX,SP-10284,MC4 connector pair rev B,C-19,5.36,10,10,0,0.0,Accurate
+AUS,Austin,TX,SP-10127,Inverter fuse 30A rev B,B-06,13.5,36,36,0,0.0,Accurate
+AUS,Austin,TX,SP-10246,Rail splice kit rev B,C-02,11.0,29,29,0,0.0,Accurate
+TPA,Tampa,FL,SP-10300,Battery module harness,D-12,68.39,34,34,0,0.0,Accurate
+TPA,Tampa,FL,SP-10591,Wall mount bracket,D-07,45.97,27,27,0,0.0,Accurate
+TPA,Tampa,FL,SP-10660,Meter socket,F-03,65.18,31,31,0,0.0,Accurate
+TPA,Tampa,FL,SP-10740,Junction box rev B,D-06,17.74,51,51,0,0.0,Accurate
+TPA,Tampa,FL,SP-10318,Battery module harness rev B,F-16,105.9,8,8,0,0.0,Accurate
+TPA,Tampa,FL,SP-10543,Thermal pad set rev B,D-07,22.56,5,5,0,0.0,Accurate
+TPA,Tampa,FL,SP-10630,Comms cable 50ft,A-15,19.69,12,12,0,0.0,Accurate
+TPA,Tampa,FL,SP-10574,Coolant pump assy rev B,A-13,215.03,43,43,0,0.0,Accurate
+TPA,Tampa,FL,SP-10608,Wall mount bracket rev B,E-14,48.85,46,46,0,0.0,Accurate
+TPA,Tampa,FL,SP-10105,Inverter fuse 30A,F-13,11.07,42,42,0,0.0,Accurate
+TPA,Tampa,FL,SP-10284,MC4 connector pair rev B,E-10,5.36,2,2,0,0.0,Accurate
+TPA,Tampa,FL,SP-10448,Conduit 1in x 10ft rev B,C-16,9.44,11,11,0,0.0,Accurate
+TPA,Tampa,FL,SP-10427,Conduit 1in x 10ft,B-16,11.23,59,59,0,0.0,Accurate
+TPA,Tampa,FL,SP-10151,DC isolator switch,D-09,73.8,59,59,0,0.0,Accurate
+TPA,Tampa,FL,SP-10688,Meter socket rev B,F-15,56.57,24,24,0,0.0,Accurate
+TPA,Tampa,FL,SP-10553,Coolant pump assy,F-03,216.68,27,27,0,0.0,Accurate
+TPA,Tampa,FL,SP-10840,Power electronics board rev B,B-19,256.11,13,13,0,0.0,Accurate
+TPA,Tampa,FL,SP-10246,Rail splice kit rev B,C-06,11.0,43,43,0,0.0,Accurate
+TPA,Tampa,FL,SP-10271,MC4 connector pair,F-11,3.86,50,50,0,0.0,Accurate
+TPA,Tampa,FL,SP-10213,Mounting rail 14ft rev B,F-07,47.08,23,23,0,0.0,Accurate
+TPA,Tampa,FL,SP-10713,Junction box,D-15,22.93,50,50,0,0.0,Accurate
+TPA,Tampa,FL,SP-10171,DC isolator switch rev B,C-18,73.97,51,51,0,0.0,Accurate
+ORL,Orlando,FL,SP-10427,Conduit 1in x 10ft,F-12,11.23,8,8,0,0.0,Accurate
+ORL,Orlando,FL,SP-10574,Coolant pump assy rev B,D-01,215.03,51,51,0,0.0,Accurate
+ORL,Orlando,FL,SP-10186,Mounting rail 14ft,F-08,49.46,59,59,0,0.0,Accurate
+ORL,Orlando,FL,SP-10768,Torque fastener kit,C-05,5.49,2,2,0,0.0,Accurate
+ORL,Orlando,FL,SP-10391,Breaker 2P 40A,F-08,22.88,37,37,0,0.0,Accurate
+ORL,Orlando,FL,SP-10793,Glass panel clip,D-08,1.29,10,10,0,0.0,Accurate
+ORL,Orlando,FL,SP-10497,Roof flashing kit,E-14,17.3,11,11,0,0.0,Accurate
+ORL,Orlando,FL,SP-10463,Grounding lug,D-19,3.94,48,48,0,0.0,Accurate
+ORL,Orlando,FL,SP-10840,Power electronics board rev B,C-19,256.11,48,48,0,0.0,Accurate
+ORL,Orlando,FL,SP-10553,Coolant pump assy,B-19,216.68,59,59,0,0.0,Accurate
+ORL,Orlando,FL,SP-10608,Wall mount bracket rev B,F-01,48.85,4,4,0,0.0,Accurate
+ORL,Orlando,FL,SP-10362,Gateway controller rev B,E-14,202.51,8,8,0,0.0,Accurate
+ORL,Orlando,FL,SP-10539,Thermal pad set,A-02,27.41,24,24,0,0.0,Accurate
+ORL,Orlando,FL,SP-10515,Roof flashing kit rev B,F-19,23.16,15,15,0,0.0,Accurate
+ORL,Orlando,FL,SP-10171,DC isolator switch rev B,E-15,73.97,17,17,0,0.0,Accurate
+ORL,Orlando,FL,SP-10660,Meter socket,F-05,65.18,42,42,0,0.0,Accurate
+ORL,Orlando,FL,SP-10271,MC4 connector pair,F-15,3.86,26,26,0,0.0,Accurate
+ORL,Orlando,FL,SP-10105,Inverter fuse 30A,B-09,11.07,54,54,0,0.0,Accurate
+ORL,Orlando,FL,SP-10151,DC isolator switch,C-14,73.8,6,6,0,0.0,Accurate
+DEN,Denver,CO,SP-10608,Wall mount bracket rev B,F-15,48.85,32,32,0,0.0,Accurate
+DEN,Denver,CO,SP-10337,Gateway controller,A-04,214.94,32,32,0,0.0,Accurate
+DEN,Denver,CO,SP-10105,Inverter fuse 30A,E-02,11.07,51,51,0,0.0,Accurate
+DEN,Denver,CO,SP-10713,Junction box,F-07,22.93,30,30,0,0.0,Accurate
+DEN,Denver,CO,SP-10448,Conduit 1in x 10ft rev B,C-07,9.44,7,7,0,0.0,Accurate
+DEN,Denver,CO,SP-10630,Comms cable 50ft,A-19,19.69,34,34,0,0.0,Accurate
+DEN,Denver,CO,SP-10362,Gateway controller rev B,C-17,202.51,53,53,0,0.0,Accurate
+DEN,Denver,CO,SP-10553,Coolant pump assy,E-19,216.68,57,57,0,0.0,Accurate
+DEN,Denver,CO,SP-10543,Thermal pad set rev B,F-11,22.56,22,22,0,0.0,Accurate
+DEN,Denver,CO,SP-10300,Battery module harness,F-19,68.39,53,53,0,0.0,Accurate
+DEN,Denver,CO,SP-10497,Roof flashing kit,D-01,17.3,14,14,0,0.0,Accurate
+DEN,Denver,CO,SP-10271,MC4 connector pair,B-04,3.86,51,51,0,0.0,Accurate
+DEN,Denver,CO,SP-10574,Coolant pump assy rev B,F-02,215.03,22,22,0,0.0,Accurate
+DEN,Denver,CO,SP-10835,Power electronics board,C-13,305.85,34,34,0,0.0,Accurate
+DEN,Denver,CO,SP-10411,Breaker 2P 40A rev B,F-09,26.67,57,57,0,0.0,Accurate
+DEN,Denver,CO,SP-10591,Wall mount bracket,B-19,45.97,4,4,0,0.0,Accurate
+DEN,Denver,CO,SP-10427,Conduit 1in x 10ft,D-01,11.23,17,17,0,0.0,Accurate
+DEN,Denver,CO,SP-10318,Battery module harness rev B,A-15,105.9,51,51,0,0.0,Accurate
+DEN,Denver,CO,SP-10171,DC isolator switch rev B,E-19,73.97,54,54,0,0.0,Accurate
+DEN,Denver,CO,SP-10391,Breaker 2P 40A,C-03,22.88,30,30,0,0.0,Accurate
+DEN,Denver,CO,SP-10151,DC isolator switch,A-07,73.8,31,31,0,0.0,Accurate
+DEN,Denver,CO,SP-10218,Rail splice kit,F-11,7.14,27,27,0,0.0,Accurate
+DEN,Denver,CO,SP-10840,Power electronics board rev B,B-18,256.11,15,15,0,0.0,Accurate
+CHI,Chicago,IL,SP-10127,Inverter fuse 30A rev B,E-07,13.5,41,41,0,0.0,Accurate
+CHI,Chicago,IL,SP-10543,Thermal pad set rev B,C-09,22.56,55,55,0,0.0,Accurate
+CHI,Chicago,IL,SP-10171,DC isolator switch rev B,D-01,73.97,43,43,0,0.0,Accurate
+CHI,Chicago,IL,SP-10271,MC4 connector pair,A-14,3.86,49,49,0,0.0,Accurate
+CHI,Chicago,IL,SP-10660,Meter socket,B-05,65.18,29,29,0,0.0,Accurate
+CHI,Chicago,IL,SP-10213,Mounting rail 14ft rev B,F-06,47.08,41,41,0,0.0,Accurate
+CHI,Chicago,IL,SP-10713,Junction box,D-18,22.93,32,32,0,0.0,Accurate
+CHI,Chicago,IL,SP-10574,Coolant pump assy rev B,F-05,215.03,59,59,0,0.0,Accurate
+CHI,Chicago,IL,SP-10591,Wall mount bracket,C-18,45.97,34,34,0,0.0,Accurate
+CHI,Chicago,IL,SP-10473,Grounding lug rev B,B-05,2.19,48,48,0,0.0,Accurate
+CHI,Chicago,IL,SP-10608,Wall mount bracket rev B,E-02,48.85,26,26,0,0.0,Accurate
+CHI,Chicago,IL,SP-10218,Rail splice kit,C-01,7.14,3,3,0,0.0,Accurate
+CHI,Chicago,IL,SP-10186,Mounting rail 14ft,E-14,49.46,9,9,0,0.0,Accurate
+CHI,Chicago,IL,SP-10362,Gateway controller rev B,A-19,202.51,12,12,0,0.0,Accurate
+CHI,Chicago,IL,SP-10553,Coolant pump assy,D-19,216.68,2,2,0,0.0,Accurate
+CHI,Chicago,IL,SP-10448,Conduit 1in x 10ft rev B,D-18,9.44,35,35,0,0.0,Accurate
+CHI,Chicago,IL,SP-10246,Rail splice kit rev B,A-12,11.0,53,53,0,0.0,Accurate
+CHI,Chicago,IL,SP-10284,MC4 connector pair rev B,C-12,5.36,17,17,0,0.0,Accurate
+CHI,Chicago,IL,SP-10777,Torque fastener kit rev B,F-16,8.5,19,19,0,0.0,Accurate
+CHI,Chicago,IL,SP-10835,Power electronics board,A-05,305.85,3,3,0,0.0,Accurate
+CHI,Chicago,IL,SP-10515,Roof flashing kit rev B,D-12,23.16,52,52,0,0.0,Accurate
+CHI,Chicago,IL,SP-10151,DC isolator switch,E-13,73.8,34,34,0,0.0,Accurate
+CHI,Chicago,IL,SP-10337,Gateway controller,B-15,214.94,44,44,0,0.0,Accurate
+CHI,Chicago,IL,SP-10809,Glass panel clip rev B,F-10,1.24,59,59,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10246,Rail splice kit rev B,E-09,11.0,4,4,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10630,Comms cable 50ft,C-19,19.69,41,41,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10218,Rail splice kit,F-17,7.14,12,12,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10391,Breaker 2P 40A,C-09,22.88,54,54,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10463,Grounding lug,E-18,3.94,35,35,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10809,Glass panel clip rev B,A-01,1.24,52,52,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10574,Coolant pump assy rev B,E-04,215.03,26,26,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10497,Roof flashing kit,C-12,17.3,24,24,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10300,Battery module harness,A-12,68.39,35,35,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10660,Meter socket,A-04,65.18,56,56,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10151,DC isolator switch,E-03,73.8,23,23,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10543,Thermal pad set rev B,A-07,22.56,11,11,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10553,Coolant pump assy,B-02,216.68,57,57,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10835,Power electronics board,B-02,305.85,58,58,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10688,Meter socket rev B,B-01,56.57,28,28,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10186,Mounting rail 14ft,F-13,49.46,7,7,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10105,Inverter fuse 30A,A-03,11.07,53,53,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10840,Power electronics board rev B,A-05,256.11,25,25,0,0.0,Accurate
+ABQ,Albuquerque,NM,SP-10213,Mounting rail 14ft rev B,A-05,47.08,33,33,0,0.0,Accurate

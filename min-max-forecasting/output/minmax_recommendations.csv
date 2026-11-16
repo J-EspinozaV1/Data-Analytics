@@ -1,0 +1,13 @@
+part_number,description,lead_time_days,next_month_forecast,min_reorder_point,max_order_up_to
+SP-10186,Mounting rail 14ft,14,359,230,589
+SP-10218,Rail splice kit,14,178,128,306
+SP-10284,MC4 connector pair rev B,30,251,332,582
+SP-10337,Gateway controller,7,54,20,74
+SP-10411,Breaker 2P 40A rev B,7,291,123,414
+SP-10427,Conduit 1in x 10ft,21,202,263,465
+SP-10473,Grounding lug rev B,21,135,136,270
+SP-10574,Coolant pump assy rev B,14,44,28,72
+SP-10591,Wall mount bracket,30,347,416,762
+SP-10608,Wall mount bracket rev B,14,250,175,425
+SP-10809,Glass panel clip rev B,7,142,49,191
+SP-10840,Power electronics board rev B,7,150,52,203

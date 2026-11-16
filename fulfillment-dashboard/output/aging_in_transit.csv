@@ -1,0 +1,25 @@
+shipment_id,dest_site,part_number,description,qty,ship_date,plan_delivery_date,days_past_plan,aging_bucket
+SHP501439,DEN,SP-10171,DC isolator switch rev B,12,2025-06-12,2025-06-17,20,15+ days late
+SHP501508,ORL,SP-10105,Inverter fuse 30A,15,2025-06-20,2025-06-23,14,8-14 days late
+SHP501568,ABQ,SP-10840,Power electronics board rev B,6,2025-06-24,2025-06-27,10,8-14 days late
+SHP501553,HOU,SP-10271,MC4 connector pair,9,2025-06-26,2025-06-29,8,8-14 days late
+SHP501556,DEN,SP-10127,Inverter fuse 30A rev B,2,2025-06-25,2025-06-29,8,8-14 days late
+SHP501561,TPA,SP-10515,Roof flashing kit rev B,17,2025-06-26,2025-07-01,6,1-7 days late
+SHP501583,HOU,SP-10171,DC isolator switch rev B,8,2025-06-27,2025-07-01,6,1-7 days late
+SHP501624,DEN,SP-10284,MC4 connector pair rev B,2,2025-07-02,2025-07-04,3,1-7 days late
+SHP501613,TPA,SP-10497,Roof flashing kit,12,2025-07-04,2025-07-06,1,1-7 days late
+SHP501649,DEN,SP-10713,Junction box,5,2025-07-04,2025-07-06,1,1-7 days late
+SHP501664,DEN,SP-10362,Gateway controller rev B,2,2025-07-03,2025-07-06,1,1-7 days late
+SHP501620,CHI,SP-10539,Thermal pad set,3,2025-07-04,2025-07-07,0,On schedule
+SHP501637,ORL,SP-10448,Conduit 1in x 10ft rev B,19,2025-07-04,2025-07-07,0,On schedule
+SHP501623,HOU,SP-10553,Coolant pump assy,19,2025-07-04,2025-07-08,-1,On schedule
+SHP501646,DAL,SP-10318,Battery module harness rev B,12,2025-07-03,2025-07-08,-1,On schedule
+SHP501656,HOU,SP-10337,Gateway controller,7,2025-07-03,2025-07-08,-1,On schedule
+SHP501657,ORL,SP-10840,Power electronics board rev B,19,2025-07-03,2025-07-08,-1,On schedule
+SHP501668,AUS,SP-10740,Junction box rev B,6,2025-07-03,2025-07-08,-1,On schedule
+SHP501669,ABQ,SP-10660,Meter socket,17,2025-07-04,2025-07-08,-1,On schedule
+SHP501638,DAL,SP-10840,Power electronics board rev B,16,2025-07-04,2025-07-09,-2,On schedule
+SHP501659,AUS,SP-10318,Battery module harness rev B,8,2025-07-04,2025-07-09,-2,On schedule
+SHP501660,CHI,SP-10218,Rail splice kit,17,2025-07-04,2025-07-09,-2,On schedule
+SHP501661,HOU,SP-10713,Junction box,13,2025-07-04,2025-07-09,-2,On schedule
+SHP501662,TPA,SP-10448,Conduit 1in x 10ft rev B,17,2025-07-04,2025-07-09,-2,On schedule

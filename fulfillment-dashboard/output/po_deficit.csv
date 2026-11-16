@@ -1,0 +1,86 @@
+part_number,description,dest_site,open_po_lines,open_qty,in_transit_qty,deficit_qty,deficit_value,oldest_po_days
+SP-10840,Power electronics board rev B,CHI,2,92,0,92,23562.12,7
+SP-10574,Coolant pump assy rev B,DAL,2,69,0,69,14837.07,71
+SP-10362,Gateway controller rev B,ABQ,1,71,0,71,14378.21,14
+SP-10840,Power electronics board rev B,HOU,1,51,0,51,13061.61,37
+SP-10574,Coolant pump assy rev B,ABQ,1,51,0,51,10966.53,27
+SP-10337,Gateway controller,ABQ,3,44,0,44,9457.36,22
+SP-10835,Power electronics board,TPA,1,19,0,19,5811.15,40
+SP-10337,Gateway controller,HOU,1,34,7,27,5803.38,24
+SP-10608,Wall mount bracket rev B,DEN,4,118,0,118,5764.3,42
+SP-10362,Gateway controller rev B,CHI,1,25,0,25,5062.75,48
+SP-10362,Gateway controller rev B,HOU,1,21,0,21,4252.71,22
+SP-10688,Meter socket rev B,DEN,2,71,0,71,4016.47,19
+SP-10840,Power electronics board rev B,DEN,2,15,0,15,3841.65,59
+SP-10318,Battery module harness rev B,CHI,1,36,0,36,3812.4,12
+SP-10318,Battery module harness rev B,HOU,1,36,0,36,3812.4,25
+SP-10213,Mounting rail 14ft rev B,CHI,1,74,0,74,3483.92,14
+SP-10553,Coolant pump assy,DEN,1,15,0,15,3250.2,3
+SP-10213,Mounting rail 14ft rev B,TPA,1,66,0,66,3107.28,7
+SP-10213,Mounting rail 14ft rev B,ABQ,2,64,0,64,3013.12,18
+SP-10840,Power electronics board rev B,AUS,1,11,0,11,2817.21,5
+SP-10213,Mounting rail 14ft rev B,HOU,1,54,0,54,2542.32,17
+SP-10660,Meter socket,HOU,1,33,0,33,2150.94,17
+SP-10127,Inverter fuse 30A rev B,ORL,2,135,0,135,1822.5,10
+SP-10300,Battery module harness,ABQ,1,25,0,25,1709.75,12
+SP-10652,Comms cable 50ft rev B,ABQ,2,85,0,85,1491.75,58
+SP-10591,Wall mount bracket,ABQ,1,28,0,28,1287.16,13
+SP-10740,Junction box rev B,DEN,1,63,0,63,1117.62,17
+SP-10630,Comms cable 50ft,ORL,1,54,0,54,1063.26,30
+SP-10318,Battery module harness rev B,ABQ,1,10,0,10,1059.0,25
+SP-10543,Thermal pad set rev B,AUS,1,45,0,45,1015.2,24
+SP-10448,Conduit 1in x 10ft rev B,ABQ,2,103,0,103,972.32,21
+SP-10515,Roof flashing kit rev B,DAL,1,39,0,39,903.24,29
+SP-10213,Mounting rail 14ft rev B,DAL,1,19,0,19,894.52,18
+SP-10300,Battery module harness,AUS,1,12,0,12,820.68,6
+SP-10105,Inverter fuse 30A,CHI,1,74,0,74,819.18,5
+SP-10497,Roof flashing kit,DAL,1,46,0,46,795.8,17
+SP-10591,Wall mount bracket,AUS,1,17,0,17,781.49,14
+SP-10543,Thermal pad set rev B,ABQ,1,34,0,34,767.04,45
+SP-10427,Conduit 1in x 10ft,DEN,1,67,0,67,752.41,47
+SP-10713,Junction box,AUS,1,32,0,32,733.76,12
+SP-10427,Conduit 1in x 10ft,ORL,2,60,0,60,673.8,27
+SP-10543,Thermal pad set rev B,ORL,1,29,0,29,654.24,32
+SP-10591,Wall mount bracket,TPA,1,14,0,14,643.58,62
+SP-10777,Torque fastener kit rev B,DEN,1,74,0,74,629.0,12
+SP-10427,Conduit 1in x 10ft,AUS,1,54,0,54,606.42,26
+SP-10608,Wall mount bracket rev B,ABQ,1,12,0,12,586.2,16
+SP-10218,Rail splice kit,DAL,2,82,0,82,585.48,17
+SP-10411,Breaker 2P 40A rev B,ORL,1,20,0,20,533.4,8
+SP-10630,Comms cable 50ft,DEN,1,26,0,26,511.94,8
+SP-10246,Rail splice kit rev B,TPA,1,46,0,46,506.0,17
+SP-10652,Comms cable 50ft rev B,AUS,1,26,0,26,456.3,31
+SP-10246,Rail splice kit rev B,AUS,2,41,0,41,451.0,23
+SP-10515,Roof flashing kit rev B,ORL,1,19,0,19,440.04,16
+SP-10391,Breaker 2P 40A,AUS,1,19,0,19,434.72,76
+SP-10539,Thermal pad set,ABQ,1,15,0,15,411.15,34
+SP-10630,Comms cable 50ft,CHI,1,17,0,17,334.73,28
+SP-10271,MC4 connector pair,DAL,2,74,0,74,285.64,61
+SP-10473,Grounding lug rev B,CHI,3,127,0,127,278.13,35
+SP-10515,Roof flashing kit rev B,HOU,1,12,0,12,277.92,26
+SP-10777,Torque fastener kit rev B,CHI,1,32,0,32,272.0,8
+SP-10497,Roof flashing kit,ORL,2,15,0,15,259.5,28
+SP-10840,Power electronics board rev B,DAL,1,17,16,1,256.11,13
+SP-10652,Comms cable 50ft rev B,TPA,1,12,0,12,210.6,74
+SP-10713,Junction box,ORL,1,9,0,9,206.37,17
+SP-10300,Battery module harness,DAL,1,3,0,3,205.17,46
+SP-10284,MC4 connector pair rev B,CHI,1,36,0,36,192.96,26
+SP-10543,Thermal pad set rev B,CHI,1,8,0,8,180.48,23
+SP-10463,Grounding lug,CHI,1,40,0,40,157.6,14
+SP-10463,Grounding lug,DEN,2,36,0,36,141.84,16
+SP-10652,Comms cable 50ft rev B,ORL,2,6,0,6,105.3,43
+SP-10284,MC4 connector pair rev B,ABQ,1,19,0,19,101.84,13
+SP-10127,Inverter fuse 30A rev B,HOU,1,7,0,7,94.5,8
+SP-10591,Wall mount bracket,CHI,1,2,0,2,91.94,12
+SP-10740,Junction box rev B,AUS,1,11,6,5,88.7,9
+SP-10652,Comms cable 50ft rev B,CHI,1,5,0,5,87.75,12
+SP-10768,Torque fastener kit,TPA,1,15,0,15,82.35,16
+SP-10463,Grounding lug,HOU,1,19,0,19,74.86,37
+SP-10127,Inverter fuse 30A rev B,AUS,1,5,0,5,67.5,21
+SP-10473,Grounding lug rev B,ORL,2,30,0,30,65.7,38
+SP-10543,Thermal pad set rev B,DEN,1,2,0,2,45.12,17
+SP-10463,Grounding lug,ORL,1,10,0,10,39.4,16
+SP-10809,Glass panel clip rev B,CHI,1,31,0,31,38.44,33
+SP-10768,Torque fastener kit,AUS,1,4,0,4,21.96,2
+SP-10473,Grounding lug rev B,TPA,1,4,0,4,8.76,17
+SP-10809,Glass panel clip rev B,DEN,1,7,0,7,8.68,10
